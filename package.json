@@ -1,0 +1,21 @@
+{
+  "name": "darkmood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o ./CSS/style.css",
+    "watch": "postcss tailwind.css -o ./CSS/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
